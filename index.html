@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ALORA — A scent is a memory you can wear.</title>
 <meta name="description" content="ALORA is a discovery-first fragrance house. Six wearable memories in one refillable box.">
+<meta property="og:title" content="ALORA — A scent is a memory you can wear.">
+<meta property="og:description" content="Six wearable memories in one refillable box. Discover the fragrance that finds you.">
+<meta property="og:image" content="https://hellysaint.github.io/alora-parfum/assets/photos/studio-shot.jpg">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cpath d='M14 96 Q60 18 106 96' stroke='%23231E1A' stroke-width='8' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='60' cy='24' r='7' fill='%23231E1A'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,8 +55,16 @@
   <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
 </header>
 
+<!-- ================= HERO SHOT ================= -->
+<section class="hero-shot">
+  <div class="wrap" data-reveal>
+    <img src="assets/photos/hero-discovery-open.jpg" alt="ALORA Discovery Collection box, open, with six 3ml parfum vials" loading="eager">
+  </div>
+</section>
+
 <!-- ================= PHILOSOPHY ================= -->
 <section class="section philosophy" id="story">
+  <div class="philosophy-bg" style="background-image:url('assets/photos/ambient-bokeh.jpg')"></div>
   <div class="wrap">
     <blockquote data-reveal>
       We believe fragrance isn't chosen — it's remembered. ALORA began as a search for scent that felt less
@@ -69,6 +82,11 @@
       <span class="eyebrow">The Discovery Collection</span>
       <h2>Six 3ml parfums.<br>One box. No guessing.</h2>
       <p>Every ALORA order begins here — a fitted set of six pure parfum vials, so the fragrance you commit to is one you've actually lived in.</p>
+    </div>
+
+    <div class="collection-collage" data-reveal>
+      <img src="assets/photos/discovery-box-flatlay.jpg" alt="ALORA Discovery Box flatlay with six parfum vials" class="collage-main">
+      <img src="assets/photos/collection-lineup.jpg" alt="ALORA six parfum vials lined up beside the box" class="collage-side">
     </div>
 
     <div class="scent-grid" data-reveal-group id="scentGrid">
@@ -152,44 +170,9 @@
 <!-- ================= PACKAGING ================= -->
 <section class="section packaging" id="packaging">
   <div class="wrap pack-grid">
-    <div class="box-scene" id="boxScene">
-      <svg viewBox="0 0 400 340">
-        <defs>
-          <linearGradient id="gLeft" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#B98F68"/><stop offset="1" stop-color="#8E6B49"/></linearGradient>
-          <linearGradient id="gRight" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D4AC85"/><stop offset="1" stop-color="#AD8258"/></linearGradient>
-          <linearGradient id="gLid" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EFD9C6"/><stop offset="1" stop-color="#DEBBA3"/></linearGradient>
-          <filter id="blurShadow"><feGaussianBlur stdDeviation="10"/></filter>
-        </defs>
-
-        <ellipse class="box-shadow-el" cx="200" cy="322" rx="150" ry="18" fill="#000" opacity=".22" filter="url(#blurShadow)"/>
-
-        <!-- tray body -->
-        <polygon points="70,165 200,230 200,325 70,260" fill="url(#gLeft)"/>
-        <polygon points="200,230 330,165 330,260 200,325" fill="url(#gRight)"/>
-
-        <!-- interior + vials -->
-        <g class="box-inside-content">
-          <polygon points="200,118 310,170 200,222 90,170" fill="#2B241F"/>
-          <polygon points="200,132 290,172 200,210 110,172" fill="#3A312A"/>
-          <g id="vialRow"></g>
-        </g>
-
-        <!-- lid (animated) -->
-        <g id="lidGroup">
-          <polygon points="70,165 200,230 200,242 70,177" fill="#9C7952"/>
-          <polygon points="200,230 330,165 330,177 200,242" fill="#C9A480"/>
-          <polygon points="200,100 330,165 200,230 70,165" fill="url(#gLid)"/>
-          <line x1="200" y1="100" x2="200" y2="230" stroke="#B08B63" stroke-width="3.5" opacity=".8"/>
-          <line x1="70" y1="165" x2="330" y2="165" stroke="#B08B63" stroke-width="3.5" opacity=".8"/>
-          <circle cx="200" cy="165" r="24" fill="#FBF6EF" stroke="#B08B63" stroke-width="1.5"/>
-          <g transform="translate(200,165) scale(.34) translate(-60,-60)">
-            <path d="M14 96 Q60 18 106 96" stroke="#231E1A" stroke-width="7" fill="none" stroke-linecap="round"/>
-            <path d="M32 96 Q60 54 88 96" stroke="#231E1A" stroke-width="7" fill="none" stroke-linecap="round"/>
-            <line x1="60" y1="96" x2="60" y2="32" stroke="#231E1A" stroke-width="7" stroke-linecap="round"/>
-            <circle cx="60" cy="24" r="7" fill="#231E1A"/>
-          </g>
-        </g>
-      </svg>
+    <div class="pack-photo" data-reveal>
+      <img src="assets/photos/packaging-pair.jpg" alt="ALORA box closed with jute twine beside the same box open, showing vials" class="pack-photo-main">
+      <img src="assets/photos/packaging-twine-macro.jpg" alt="Close-up of the ALORA box's hand-tied twine bow and foil-stamped seal" class="pack-photo-detail">
     </div>
 
     <div>
@@ -229,6 +212,7 @@
       </div>
       <div class="plan featured" data-reveal style="--i:1">
         <span class="plan-tag">Most Loved</span>
+        <img src="assets/photos/studio-shot.jpg" alt="ALORA Discovery box with parfum vials, studio shot" class="plan-photo">
         <h3>Signature Bottle</h3>
         <p class="desc">Your one, in full — 50ml, refillable, forever.</p>
         <div class="price">$148 <span>/ bottle</span></div>
@@ -266,7 +250,7 @@
 </section>
 
 <!-- ================= CTA ================= -->
-<section class="section cta" id="join">
+<section class="section cta" id="join" style="background-image:linear-gradient(160deg,rgba(23,19,16,.88),rgba(23,19,16,.94)),url('assets/photos/lifestyle-hand.jpg')">
   <div class="wrap">
     <h2 data-reveal>Be the first to wear it.</h2>
     <p data-reveal>ALORA launches in limited quantities. Join the list for early access and a founding-member discount on your first box.</p>
