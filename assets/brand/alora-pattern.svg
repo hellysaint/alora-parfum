@@ -1,0 +1,22 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" fill="#F1E7DE"/>
+  <g opacity=".34" fill="#9B7763">
+    <path d="M80 62L52 144H62L69 124H91L97 144H108L80 62ZM72 115L80 89L88 115H72Z"/>
+    <path d="M55 93V146H65V93H55Z"/>
+    <path d="M96 93H113C126 93 134 101 134 112C134 121 129 128 120 131L137 146H124L111 133H106V146H96V93ZM106 102V123H113C120 123 124 119 124 112C124 106 120 102 113 102H106Z"/>
+    <path d="M320 62L292 144H302L309 124H331L337 144H348L320 62ZM312 115L320 89L328 115H312Z"/>
+    <path d="M295 93V146H305V93H295Z"/>
+    <path d="M336 93H353C366 93 374 101 374 112C374 121 369 128 360 131L377 146H364L351 133H346V146H336V93ZM346 102V123H353C360 123 364 119 364 112C364 106 360 102 353 102H346Z"/>
+    <path d="M560 62L532 144H542L549 124H571L577 144H588L560 62ZM552 115L560 89L568 115H552Z"/>
+    <path d="M535 93V146H545V93H535Z"/>
+    <path d="M576 93H593C606 93 614 101 614 112C614 121 609 128 600 131L617 146H604L591 133H586V146H576V93ZM586 102V123H593C600 123 604 119 604 112C604 106 600 102 593 102H586Z"/>
+  </g>
+  <g opacity=".22" fill="#171411">
+    <text x="80" y="316" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="8">ALORA</text>
+    <text x="320" y="316" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="8">ALORA</text>
+    <text x="560" y="316" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="8">ALORA</text>
+    <text x="80" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="8">ALORA</text>
+    <text x="320" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="8">ALORA</text>
+    <text x="560" y="556" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="8">ALORA</text>
+  </g>
+</svg>

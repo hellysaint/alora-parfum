@@ -1,0 +1,13 @@
+<svg width="560" height="720" viewBox="0 0 560 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="560" height="720" rx="32" fill="#FBFAF7"/>
+  <rect x="32" y="32" width="496" height="656" rx="24" stroke="#E2D5CA" stroke-width="3"/>
+  <g transform="translate(122 86) scale(.72)" fill="#171411">
+    <path d="M256 88L154 396H191L215 319H298L322 396H360L256 88ZM226 285L256 188L287 285H226Z"/>
+    <path d="M166 214V400H204V214H166Z"/>
+    <path d="M304 214H363C408 214 435 242 435 282C435 315 416 339 386 348L442 400H397L350 354H342V400H304V214ZM342 249V320H362C384 320 397 307 397 283C397 261 384 249 362 249H342Z"/>
+  </g>
+  <text x="280" y="470" text-anchor="middle" fill="#171411" font-family="Georgia, 'Times New Roman', serif" font-size="72" letter-spacing="18">ALORA</text>
+  <line x1="148" y1="518" x2="412" y2="518" stroke="#DBC3B4" stroke-width="2"/>
+  <text x="280" y="564" text-anchor="middle" fill="#9B7763" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="7">PERFUME DISCOVERY</text>
+  <circle cx="280" cy="615" r="5" fill="#9B7763"/>
+</svg>
