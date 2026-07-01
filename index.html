@@ -10,10 +10,11 @@
 <meta property="og:image" content="https://hellysaint.github.io/alora-parfum/assets/photos/studio-shot.jpg">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Cpath d='M14 96 Q60 18 106 96' stroke='%23231E1A' stroke-width='8' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='60' cy='24' r='7' fill='%23231E1A'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0B0A08">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Crect width='120' height='120' fill='%230B0A08'/%3E%3Cpath d='M20 94 Q60 24 100 94' stroke='%23C9A24B' stroke-width='7' fill='none' stroke-linecap='round'/%3E%3Cline x1='60' y1='94' x2='60' y2='38' stroke='%23C9A24B' stroke-width='7' stroke-linecap='round'/%3E%3Ccircle cx='60' cy='29' r='6.5' fill='%23C9A24B'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -40,38 +41,54 @@
 
 <!-- ================= HERO ================= -->
 <header class="hero" id="top">
-  <div class="hero-blobs"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div>
   <div class="motes" id="motes"></div>
   <div class="hero-inner">
-    <svg class="hero-mark" viewBox="0 0 120 120"><path d="M14 96 Q60 18 106 96" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M32 96 Q60 54 88 96" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/><line x1="60" y1="96" x2="60" y2="32" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle cx="60" cy="24" r="4.5" fill="currentColor"/></svg>
-    <span class="hero-eyebrow">ALORA · Discovery Collection</span>
+    <div class="hero-monogram">
+      <svg viewBox="0 0 120 120"><path d="M14 96 Q60 18 106 96" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M32 96 Q60 54 88 96" stroke="currentColor" stroke-width="4" fill="none" stroke-linecap="round"/><line x1="60" y1="96" x2="60" y2="32" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><circle cx="60" cy="24" r="4.5" fill="currentColor"/></svg>
+    </div>
+    <span class="hero-eyebrow">ALORA · Maison de Parfum</span>
     <h1>A scent is a memory<br><em>you can wear.</em></h1>
-    <p class="hero-sub">Six wearable memories in one refillable box. Discover the fragrance that finds you — before you commit to the one that keeps you.</p>
+    <p class="hero-sub">Six wearable memories in one box, cast in black glass and gold light. Discover the fragrance that finds you — before you commit to the one that keeps you.</p>
     <div class="hero-cta">
-      <a href="#collection" class="btn btn-primary">Explore the Collection</a>
+      <a href="#collection" class="btn btn-gold">Explore the Collection</a>
       <a href="#story" class="btn btn-ghost">Our Story</a>
     </div>
   </div>
   <div class="scroll-cue"><span>SCROLL</span><span class="line"></span></div>
 </header>
 
-<!-- ================= HERO SHOT ================= -->
-<section class="hero-shot">
+<!-- ================= MARQUEE ================= -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marqueeTrack">
+    <span>Pure Parfum<i>✦</i></span><span>Small Batch<i>✦</i></span><span>Hand-Poured<i>✦</i></span><span>Refillable<i>✦</i></span><span>Cruelty-Free<i>✦</i></span><span>Six Memories<i>✦</i></span>
+  </div>
+</div>
+
+<!-- ================= SHOWCASE ================= -->
+<section class="showcase">
   <div class="wrap" data-reveal>
-    <img src="assets/photos/hero-discovery-open.jpg" alt="ALORA Discovery Collection box, open, with six 3ml parfum vials" loading="eager">
+    <div class="frame">
+      <img src="assets/photos/hero-discovery-open.jpg" alt="ALORA Discovery Collection box, open, with six 3ml parfum vials" loading="eager">
+    </div>
+    <p class="frame-caption">The Discovery Collection · № I–VI</p>
   </div>
 </section>
 
 <!-- ================= PHILOSOPHY ================= -->
 <section class="section philosophy" id="story">
-  <div class="philosophy-bg" style="background-image:url('assets/photos/ambient-bokeh.jpg')"></div>
-  <div class="wrap">
-    <blockquote data-reveal>
-      We believe fragrance isn't chosen — it's remembered. ALORA began as a search for scent that felt less
-      like decoration and more like recognition: the kind that stops you mid-step because it smells exactly
-      like a place, a person, or a version of yourself you hadn't thought about in years.
-    </blockquote>
-    <p class="sig" data-reveal>— The ALORA Atelier</p>
+  <div class="wrap philosophy-grid">
+    <div class="philosophy-label" data-reveal>
+      <span class="num">I.</span>
+      <span class="eyebrow left">The House</span>
+    </div>
+    <div>
+      <blockquote data-reveal>
+        We believe fragrance isn't chosen — <b>it's remembered.</b> ALORA began as a search for scent that felt less
+        like decoration and more like recognition: the kind that stops you mid-step because it smells exactly
+        like a place, a person, or a version of yourself you hadn't thought about in years.
+      </blockquote>
+      <p class="sig" data-reveal>— The ALORA Atelier</p>
+    </div>
   </div>
 </section>
 
@@ -79,7 +96,7 @@
 <section class="section collection" id="collection">
   <div class="wrap">
     <div class="section-head" data-reveal>
-      <span class="eyebrow">The Discovery Collection</span>
+      <span class="eyebrow">II · The Discovery Collection</span>
       <h2>Six 3ml parfums.<br>One box. No guessing.</h2>
       <p>Every ALORA order begins here — a fitted set of six pure parfum vials, so the fragrance you commit to is one you've actually lived in.</p>
     </div>
@@ -89,11 +106,9 @@
       <img src="assets/photos/collection-lineup.jpg" alt="ALORA six parfum vials lined up beside the box" class="collage-side">
     </div>
 
-    <div class="scent-grid" data-reveal-group id="scentGrid">
-      <!-- Card template repeated x6 via JS-free static markup -->
+    <div class="scent-grid" data-reveal-group>
       <article class="scent-card" data-reveal style="--i:0">
-        <span class="scent-no">No. 01</span>
-        <div class="vial"><svg viewBox="0 0 40 110"><rect x="14" y="12" width="12" height="18" rx="3" fill="#231E1A"/><rect class="liquid" x="8" y="30" width="24" height="72" rx="7" fill="#E7CBB2"/><rect x="8" y="30" width="24" height="72" rx="7" fill="none" stroke="rgba(35,30,26,.18)"/><rect x="11" y="34" width="4" height="50" rx="2" fill="#fff" opacity=".45"/><rect x="9" y="62" width="22" height="15" rx="2" fill="#FFFDFA" opacity=".92"/></svg></div>
+        <div class="scent-top"><span class="scent-no">№ I</span><span class="scent-drop" style="background:#E9D9A8"></span></div>
         <h3 class="scent-name">Linen Amber</h3>
         <p class="scent-mood">a sunlit shirt, still warm from the line</p>
         <div class="scent-notes">
@@ -104,8 +119,7 @@
       </article>
 
       <article class="scent-card" data-reveal style="--i:1">
-        <span class="scent-no">No. 02</span>
-        <div class="vial"><svg viewBox="0 0 40 110"><rect x="14" y="12" width="12" height="18" rx="3" fill="#231E1A"/><rect class="liquid" x="8" y="30" width="24" height="72" rx="7" fill="#D9AE96"/><rect x="8" y="30" width="24" height="72" rx="7" fill="none" stroke="rgba(35,30,26,.18)"/><rect x="11" y="34" width="4" height="50" rx="2" fill="#fff" opacity=".45"/><rect x="9" y="62" width="22" height="15" rx="2" fill="#FFFDFA" opacity=".92"/></svg></div>
+        <div class="scent-top"><span class="scent-no">№ II</span><span class="scent-drop" style="background:#DDB88B"></span></div>
         <h3 class="scent-name">Santal Rose</h3>
         <p class="scent-mood">a rose leaned against warm wood</p>
         <div class="scent-notes">
@@ -116,8 +130,7 @@
       </article>
 
       <article class="scent-card" data-reveal style="--i:2">
-        <span class="scent-no">No. 03</span>
-        <div class="vial"><svg viewBox="0 0 40 110"><rect x="14" y="12" width="12" height="18" rx="3" fill="#231E1A"/><rect class="liquid" x="8" y="30" width="24" height="72" rx="7" fill="#C9A480"/><rect x="8" y="30" width="24" height="72" rx="7" fill="none" stroke="rgba(35,30,26,.18)"/><rect x="11" y="34" width="4" height="50" rx="2" fill="#fff" opacity=".45"/><rect x="9" y="62" width="22" height="15" rx="2" fill="#FFFDFA" opacity=".92"/></svg></div>
+        <div class="scent-top"><span class="scent-no">№ III</span><span class="scent-drop" style="background:#C9A24B"></span></div>
         <h3 class="scent-name">Cedar Bloom</h3>
         <p class="scent-mood">violets pressed into a cedar drawer</p>
         <div class="scent-notes">
@@ -128,8 +141,7 @@
       </article>
 
       <article class="scent-card" data-reveal style="--i:3">
-        <span class="scent-no">No. 04</span>
-        <div class="vial"><svg viewBox="0 0 40 110"><rect x="14" y="12" width="12" height="18" rx="3" fill="#231E1A"/><rect class="liquid" x="8" y="30" width="24" height="72" rx="7" fill="#E3C0AE"/><rect x="8" y="30" width="24" height="72" rx="7" fill="none" stroke="rgba(35,30,26,.18)"/><rect x="11" y="34" width="4" height="50" rx="2" fill="#fff" opacity=".45"/><rect x="9" y="62" width="22" height="15" rx="2" fill="#FFFDFA" opacity=".92"/></svg></div>
+        <div class="scent-top"><span class="scent-no">№ IV</span><span class="scent-drop" style="background:#E5C87E"></span></div>
         <h3 class="scent-name">Golden Fig</h3>
         <p class="scent-mood">fig leaves, warm stone, late afternoon</p>
         <div class="scent-notes">
@@ -140,8 +152,7 @@
       </article>
 
       <article class="scent-card" data-reveal style="--i:4">
-        <span class="scent-no">No. 05</span>
-        <div class="vial"><svg viewBox="0 0 40 110"><rect x="14" y="12" width="12" height="18" rx="3" fill="#231E1A"/><rect class="liquid" x="8" y="30" width="24" height="72" rx="7" fill="#B08B63"/><rect x="8" y="30" width="24" height="72" rx="7" fill="none" stroke="rgba(35,30,26,.18)"/><rect x="11" y="34" width="4" height="50" rx="2" fill="#fff" opacity=".45"/><rect x="9" y="62" width="22" height="15" rx="2" fill="#FFFDFA" opacity=".92"/></svg></div>
+        <div class="scent-top"><span class="scent-no">№ V</span><span class="scent-drop" style="background:#A9812F"></span></div>
         <h3 class="scent-name">Smoked Vanilla</h3>
         <p class="scent-mood">a candle just blown out</p>
         <div class="scent-notes">
@@ -152,8 +163,7 @@
       </article>
 
       <article class="scent-card" data-reveal style="--i:5">
-        <span class="scent-no">No. 06</span>
-        <div class="vial"><svg viewBox="0 0 40 110"><rect x="14" y="12" width="12" height="18" rx="3" fill="#231E1A"/><rect class="liquid" x="8" y="30" width="24" height="72" rx="7" fill="#D8C3A5"/><rect x="8" y="30" width="24" height="72" rx="7" fill="none" stroke="rgba(35,30,26,.18)"/><rect x="11" y="34" width="4" height="50" rx="2" fill="#fff" opacity=".45"/><rect x="9" y="62" width="22" height="15" rx="2" fill="#FFFDFA" opacity=".92"/></svg></div>
+        <div class="scent-top"><span class="scent-no">№ VI</span><span class="scent-drop" style="background:#D8C39A"></span></div>
         <h3 class="scent-name">Quiet Stone</h3>
         <p class="scent-mood">iris and cold marble at dawn</p>
         <div class="scent-notes">
@@ -171,19 +181,19 @@
 <section class="section packaging" id="packaging">
   <div class="wrap pack-grid">
     <div class="pack-photo" data-reveal>
-      <img src="assets/photos/packaging-pair.jpg" alt="ALORA box closed with jute twine beside the same box open, showing vials" class="pack-photo-main">
-      <img src="assets/photos/packaging-twine-macro.jpg" alt="Close-up of the ALORA box's hand-tied twine bow and foil-stamped seal" class="pack-photo-detail">
+      <img src="assets/photos/packaging-pair.jpg" alt="ALORA box closed with twine beside the same box open, showing vials" class="pack-photo-main">
+      <img src="assets/photos/packaging-twine-macro.jpg" alt="Close-up of the ALORA box's hand-tied twine bow and blind-embossed seal" class="pack-photo-detail">
     </div>
 
     <div>
       <div class="section-head" style="text-align:left;margin:0 0 46px" data-reveal>
-        <span class="eyebrow">The Box</span>
+        <span class="eyebrow left">III · The Box</span>
         <h2>Every detail,<br>considered.</h2>
       </div>
       <div class="pack-list">
         <div class="pack-item" data-reveal><span class="pack-num">01</span><div><h3>Magnetic-close, cotton-paper box</h3><p>A rigid two-piece box wrapped in brushed cotton paper — blush on the inside, soft taupe out.</p></div></div>
         <div class="pack-item" data-reveal><span class="pack-num">02</span><div><h3>Hand-tied jute twine</h3><p>Tied by hand in small batches, no two knots identical — a quiet signature of the atelier.</p></div></div>
-        <div class="pack-item" data-reveal><span class="pack-num">03</span><div><h3>Foil-stamped ALORA seal</h3><p>Our arch mark, pressed — not printed — into the lid.</p></div></div>
+        <div class="pack-item" data-reveal><span class="pack-num">03</span><div><h3>Blind-embossed ALORA seal</h3><p>Our arch mark, pressed — not printed — into the lid.</p></div></div>
         <div class="pack-item" data-reveal><span class="pack-num">04</span><div><h3>Reusable felt vial tray</h3><p>Fitted felt cradles each 3ml vial, and doubles as a travel tray after your first order.</p></div></div>
         <div class="pack-item" data-reveal><span class="pack-num">05</span><div><h3>Plastic-free, FSC-certified</h3><p>Every fibre is traceable. Every box is recyclable, down to the ribbon.</p></div></div>
       </div>
@@ -191,12 +201,21 @@
   </div>
 </section>
 
-<!-- ================= COMPARE / PLANS ================= -->
+<!-- ================= GALLERY ================= -->
+<section class="gallery">
+  <div class="wrap gallery-grid" data-reveal-group>
+    <img src="assets/photos/vial-detail-stone.jpg" alt="ALORA 3ml vial resting on travertine stone" data-reveal style="--i:0">
+    <img src="assets/photos/lifestyle-hand.jpg" alt="ALORA vials arranged on silk with dried flowers" data-reveal style="--i:1">
+    <img src="assets/photos/ambient-bokeh.jpg" alt="ALORA parfum vial in warm evening light" data-reveal style="--i:2">
+  </div>
+</section>
+
+<!-- ================= PLANS ================= -->
 <section class="section compare" id="plans">
   <div class="wrap">
     <div class="section-head" data-reveal>
-      <span class="eyebrow">Find Your Way In</span>
-      <h2 id="pricing-heading">Two ways to wear it.</h2>
+      <span class="eyebrow">IV · Find Your Way In</span>
+      <h2>Two ways to wear it.</h2>
     </div>
     <div class="compare-grid" data-reveal-group>
       <div class="plan" data-reveal style="--i:0">
@@ -221,7 +240,7 @@
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12l5 5 11-11"/></svg>Refillable glass, engraved cap</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 12l5 5 11-11"/></svg>Complimentary engraving</li>
         </ul>
-        <a href="#join" class="btn btn-primary">Join the Waitlist</a>
+        <a href="#join" class="btn btn-gold">Join the Waitlist</a>
       </div>
       <div class="plan" data-reveal style="--i:2">
         <h3>Refill Trio</h3>
@@ -250,13 +269,13 @@
 </section>
 
 <!-- ================= CTA ================= -->
-<section class="section cta" id="join" style="background-image:linear-gradient(160deg,rgba(23,19,16,.88),rgba(23,19,16,.94)),url('assets/photos/lifestyle-hand.jpg')">
+<section class="section cta" id="join" style="background-image:linear-gradient(160deg,rgba(11,10,8,.9),rgba(11,10,8,.96)),url('assets/photos/lifestyle-hand.jpg')">
   <div class="wrap">
-    <h2 data-reveal>Be the first to wear it.</h2>
+    <h2 data-reveal>Be the first <em>to wear it.</em></h2>
     <p data-reveal>ALORA launches in limited quantities. Join the list for early access and a founding-member discount on your first box.</p>
     <form class="cta-form" id="waitlistForm" data-reveal>
       <input type="email" id="waitlistEmail" placeholder="you@email.com" required autocomplete="email">
-      <button type="submit" class="btn btn-light">Join the List</button>
+      <button type="submit" class="btn btn-gold">Join the List</button>
     </form>
     <p class="cta-success" id="ctaSuccess">You're on the list. We'll be in touch before launch.</p>
     <p class="cta-note" data-reveal>No spam, ever — just one email when we open the doors.</p>
